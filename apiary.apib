@@ -226,7 +226,9 @@ The execution queue resource.
 ## Get an execution queue [/execution-queue/@id]
 Get an execution queue by `id`.
 
-The `status` property can be one of `QUEUED`, `RUNNING`, `ERROR`, `COMPLETED`. The `events[]` property contains information about the execution throughout its lifecycle.
+The `status` property can be one of `QUEUED`, `RUNNING`, `ERROR`, `COMPLETED`. The `events[]` array contains information about the execution throughout its lifecycle.
+
+Once the execution is complete, a new `links` property will be added with a key of `execution` and a value of the url to query to view the execution results.
 
 ### <GET> /execution-queue/@id [GET]
 
