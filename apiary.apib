@@ -137,7 +137,7 @@ Some resources return a links object which contains a key and a url *(excluding 
 
 ## Rate Limiting
 
-We inforce rate limiting at our API web servers. The Commando.io API rate limit is a maximum of 20 requests per minute based off IP address with burst of 8 requests. Essentially this breaks down to a request every 3 seconds.
+We inforce rate limiting at our API web servers. The Commando.io API rate limit is a maximum of 30 requests per minute based off IP address with burst of 10 requests. Essentially this breaks down to a request every 2 seconds.
 
 If you exceed the rate limit HTTP status `429 Too Many Requests` and an empty response body is returned.
 
