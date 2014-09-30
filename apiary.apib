@@ -6,11 +6,9 @@ The official Commando.io API.
 
 > The API is only available to users on paid plans. To view plans and pricing see [https://commando.io](https://commando.io).
 
-> We are looking for developers who are interested in creating and maintaining client libraries in Node.js, Ruby, Python, PHP, Go, and Perl. [mailto:hello@commando.io](E-mail us) or create an [https://github.com/commando/API](issue on GitHub) if you are interested in helping out.
-
 ## Walkthrough Video
 
-<iframe src="//player.vimeo.com/video/107547330?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="625" height="389" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//player.vimeo.com/video/107547330?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="525" height="289" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Design
 The Commando.io API is fully [RESTful](http://en.wikipedia.org/wiki/Representational_State_Transfer). You can access the resources provided by the API by using standard HTTP methods *(GET, DELETE, PUT, POST)*.
@@ -146,6 +144,10 @@ Some resources return a links object which contains a key and a url *(excluding 
 We inforce rate limiting at our API web servers. The Commando.io API rate limit is a maximum of 30 requests per minute based off IP address with burst of 10 requests. Essentially this breaks down to a request every 2 seconds.
 
 If you exceed the rate limit HTTP status `429 Too Many Requests` and an empty response body is returned.
+
+## Client Libraries
+
+We are looking for developers who are interested in creating and maintaining client libraries in **Node.js**, **Ruby**, **Python**, **PHP**, **Go**, and **Perl**. [mailto:hello@commando.io](E-mail us) or create an [https://github.com/commando/API](issue on GitHub) if you are interested in helping out.
 
 # Group Base
 The base resource.
