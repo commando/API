@@ -183,7 +183,7 @@ Run an execution using a specified recipe on a server or multiple groups of serv
 ### Post Parameters
 
 + **server** *(required one of server or groups)* ... A single server id. You may find server ids in the modal popup when clicking a server in the Commando.io web interface.
-+ **groups[]** *(required one of server or groups)* ... A list of group ids seperated by commas. You may find group ids in the modal popup when clicking a group in the Commando.io web interface.
++ **groups[]** *(required one of server or groups)* ... An array of group ids. You may find group ids in the modal popup when clicking a group in the Commando.io web interface.
 + **halt_on_stderr** *(optional)* *[default=false]* ... If a server returns stderr during execution, halt and prevent the remaining servers from executing the recipe.
 + **notes** *(optional)* Optional notes and comments you wish to attach to this execution. [Markdown](http://daringfireball.net/projects/markdown/) is supported. Be sure to properly escape and url encode notes.
 
