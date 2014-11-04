@@ -6,7 +6,7 @@ Commando.io API
 ##### Documentation
 ###### http://docs.commando.io
 
-##### Overview Video
+##### Walkthrough Video
 ###### https://vimeo.com/107547330
 
 Contact
