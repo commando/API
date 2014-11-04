@@ -1,9 +1,8 @@
 Commando.io API
 ---------------
 
-### Documentation
-
-#### http://docs.commando.io
+#### Documentation
+##### http://docs.commando.io
 
 Contact
 -------
