@@ -19,5 +19,5 @@ Contact
 License & Legal
 ---------------
 
-*Copyright 2014 NodeSocket, LLC.*
+*Copyright 2014 NodeSocket, LLC.*  
 *All rights reserved.*
