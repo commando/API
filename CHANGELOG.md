@@ -7,4 +7,4 @@ CHANGELOG
  
 ## v1 - 11/17/2014
 
-- Added the following new endpoints: `/servers`, `/servers/:id`, `/groups`, `/groups/:id`, `/recipes`, `/recipes/:id`
+- Added the following endpoints: `/servers`, `/servers/:id`, `/groups`, `/groups/:id`, `/recipes`, `/recipes/:id`
