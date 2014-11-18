@@ -6,6 +6,9 @@ Commando.io API
 ##### Documentation
 ###### http://docs.commando.io
 
+##### Changelog
+###### https://github.com/commando/API/blob/master/CHANGELOG.md
+
 ##### Walkthrough Video
 ###### https://vimeo.com/107547330
 
