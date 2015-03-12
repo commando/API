@@ -8,13 +8,13 @@ CHANGELOG
 ````
 "servers": [
     {
-        "id": "srv_9GkE2IWvkzItmaTs5Agn8",
-        "label": "WEB1"
+    	"id": "srv_9GkE2IWvkzItmaTs5Agn8",
+    	"label": "WEB1"
     },
     {
-        "id": "srv_5EdvDbyOtmF9nXS7ZowcB",
-        "label": "WEB2"
-    },
+    	"id": "srv_5EdvDbyOtmF9nXS7ZowcB",
+    	"label": "WEB2"
+    }
 ]
 ````
 
@@ -22,7 +22,7 @@ Previously:
  
  ````
  "servers": [
-	"WEB1",
+ 	"WEB1",
 	"WEB2"
  ],
  "servers_ids": [
