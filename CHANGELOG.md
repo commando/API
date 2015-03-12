@@ -8,9 +8,13 @@ CHANGELOG
 ````
 "servers": [
     {
-        "id": "srv_GyrjA546fe7e6cc2fauny",
-        "label": "BENCH2"
-    }
+        "id": "srv_9GkE2IWvkzItmaTs5Agn8",
+        "label": "WEB1"
+    },
+    {
+        "id": "srv_5EdvDbyOtmF9nXS7ZowcB",
+        "label": "WEB2"
+    },
 ]
 ````
 
@@ -18,12 +22,12 @@ Previously:
  
  ````
  "servers": [
-	    "WEB1",
-	    "WEB2"
+	"WEB1",
+	"WEB2"
  ],
  "servers_ids": [
-	    "srv_9GkE2IWvkzItmaTs5Agn8",
-	    "srv_5EdvDbyOtmF9nXS7ZowcB"
+	"srv_9GkE2IWvkzItmaTs5Agn8",
+	"srv_5EdvDbyOtmF9nXS7ZowcB"
  ]
  ````
 
