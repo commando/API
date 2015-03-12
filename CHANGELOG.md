@@ -21,14 +21,14 @@ CHANGELOG
 Previously:
  
  ````
- "servers": [
-     "WEB1",
-     "WEB2"
- ],
- "servers_ids": [
-     "srv_9GkE2IWvkzItmaTs5Agn8",
-     "srv_5EdvDbyOtmF9nXS7ZowcB"
- ]
+"servers": [
+    "WEB1",
+    "WEB2"
+],
+"servers_ids": [
+    "srv_9GkE2IWvkzItmaTs5Agn8",
+    "srv_5EdvDbyOtmF9nXS7ZowcB"
+]
  ````
 
 ## v1 - 9/23/2014
