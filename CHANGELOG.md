@@ -22,12 +22,12 @@ Previously:
  
  ````
  "servers": [
- 	"WEB1",
-	"WEB2"
+     "WEB1",
+     "WEB2"
  ],
  "servers_ids": [
-	"srv_9GkE2IWvkzItmaTs5Agn8",
-	"srv_5EdvDbyOtmF9nXS7ZowcB"
+     "srv_9GkE2IWvkzItmaTs5Agn8",
+     "srv_5EdvDbyOtmF9nXS7ZowcB"
  ]
  ````
 
