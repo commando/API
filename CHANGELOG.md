@@ -6,7 +6,7 @@ CHANGELOG
 - Added recipe argument support in `/recipes/:id/execute`. You may now optionally pass a JSON string object in the post parameter `recipe_arguments`. See the following curl example:
 
 ````
-curl -u foo:skey_2azljcEZBjjxKQ53cf5cc807a673EqqdNmT https://api.commando.io/v1/recipes/rec_3Fc5q540e480b672d38Ig/execute -d "groups=grp_2Xk7x540e481bcb9c775d" -d 'recipe_arguments={"$host":"google.com"}' -X POST
+curl -u foo:skey_2azljcEZBjjxKQ53cf5cc807a673EqqdNmT https://api.commando.io/v1/recipes/rec_3Fc5q540e480b672d38Ig/execute -X POST -d "groups=grp_2Xk7x540e481bcb9c775d" -d 'recipe_arguments={"$host":"google.com"}'
 ````
 
 ## v1 - 3/12/2015
