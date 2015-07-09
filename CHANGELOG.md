@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+## v1 - 7/9/2015
+
+Added the get all execution queues endpoint `/execution-queue`.
+
 ## v1 - 7/8/2015
 
 - Added recipe argument support in `/recipes/:id/execute`. You may now optionally pass a JSON string object in the post parameter `recipe_arguments`. See the following curl example:
