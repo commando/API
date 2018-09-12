@@ -3,7 +3,7 @@ CHANGELOG
 
 ## v1 - 7/9/2015
 
-- Added the get all in the execution queue endpoint `/execution-queue`.
+- Added the get all for the execution queue endpoint `/execution-queue`.
 
 ## v1 - 7/8/2015
 
